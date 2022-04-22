@@ -13,7 +13,7 @@ const Pokemon = ({ data }) => {
     return(
         <div>
             <h1>{data.name} número #{data.id}</h1>
-            <Image src={data.sprites.front_default} width={400} height={400} />
+            <Image src={data.sprites.front_default} width={200} height={200} />
             <Link href="/" >Volver al inicio</Link>
         </div>
     )
